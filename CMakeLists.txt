@@ -3,4 +3,4 @@ project(Atividades_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Atividades_C   "ED SALA/Menu.c")
+add_executable(Atividades_C   "ED SALA/listaseq.c" "ED SALA/listaseq.h" "ED SALA/isso ai.c")
