@@ -3,7 +3,7 @@
 //
 
 
-// Exercicio - Structs e Alocação dinamica de Memoria
+//                                 Exercicio - Structs e Alocação dinamica de Memoria
 
 // Questão 1: Qual a saída fornecida por esse programa??
 //
@@ -84,4 +84,8 @@ int main(void){
 
     return 0;
 }
+
+//
+//                                         2 Função splitInt
+//
 
