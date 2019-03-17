@@ -25,9 +25,18 @@ int main(void){
         }
 
         int cont = 0;
-        for(int k=30; k < 61; k++){
-            if ((esq[k] > 0) && (dir[k] > 0)) cont++;
+
+        for(int k=29; k < 61; k++){
+            if ((esq[k] > 0) && (dir[k] > 0)) {
+                cont++;
+                esq[k]--;
+                dir[k]--;
+                k = 29;
+            }
+            else continue;
+
         }
+
         printf("%d\n", cont);
 
     }
