@@ -121,7 +121,7 @@ int verifyListInt (char * s){
     int i;
 
     for (i=0; s[i] != '\0'; i++){
-        if (s[i] == ' ' && isdigit(s[i-1]) && s[i+1]){
+        if (i > 0 && s[i] == ' ' && isdigit(s[i-1]) && s[i+1]){
             c++;
         }else if(s[i+1] == '\0' && isdigit(s[i])){
             c++;
@@ -149,17 +149,19 @@ int* split_int(char *s, int *size){
             pos++;
 
         }
-        else if ( i !=0 &&  s[i] == ' ' && isdigit(s[i-1]) || (s[i+1] == '\0' && isdigit(s[i]))){
+        else if ( (i !=0 &&  s[i] == ' ' && isdigit(s[i-1]))){
+            aux[pos] = '\0';
             p[cn] = atoi(aux);
             cn++;
             aux[0]='\0';
             pos = 0;
         }
 
-        if (aux[0] != '\0'){p[cn] = atoi(aux);}
-
-
-
+    }
+    if(pos > 0) {
+       aux[pos] = '\0';
+       p[cn] = atoi(aux);
+       cn++;
     }
 
     return p;
