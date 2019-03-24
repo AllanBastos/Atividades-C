@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stdlib.h
+-
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+

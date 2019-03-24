@@ -137,3 +137,26 @@ void imprimir( TLista* lista ){
 	printf("]" );	
 }
 
+
+// criando novos elementos 
+
+
+
+int inserir_Primeira( TLista* lista, int elemento ){
+	if (listaVazia(lista)) {
+		lista->elementos[0] = elemento;
+		return 1;
+	}
+
+	else if (listaCheia(lista)) return 0;
+
+	for ( register int i = lista->posUltimo; i >= 0; i--){
+		lista->elementos[i] = lista->elementos[i -1];
+
+	}
+
+	lista->elementos[0] = elemento;
+	lista->posUltimo++;
+	return 1;
+
+}

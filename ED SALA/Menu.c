@@ -1,12 +1,93 @@
 
 #include <stdio.h>
-// #include <ncurcio.h>
 #include "listaseq.h"
 #include <string.h>
 #include <ctype.h>
 
 int dado = 0;
 TLista lista_inicial;
+
+void menu_add(void);
+
+void menu_remover(void);
+
+void exibir();
+
+void posicao();
+
+void limpar();
+
+char entrada();
+
+int menu_primeira();
+
+
+
+int main(void) {
+
+    dado = 0;
+
+    criarLista(&lista_inicial);
+    int sair = 1;
+    while (sair) {
+        int escolha = 0;
+        printf("   Editor de Listas\n");
+        printf("______________________\n");
+        printf("1 - Exibir Listas\n");
+        printf("2 - Inserir\n");
+        printf("3 - Remover\n");
+        printf("4 - Exibir elemento\n");
+        printf("5 - Exibir posicao\n");
+        printf("6 - Esvasiar lista\n");
+        printf("7 - Inserir primeira posicao\n");
+        printf("8 - Sair\n");
+        printf("\n");
+
+        escolha = entrada();
+
+
+        switch (escolha)
+        {
+            case '1':
+                imprimir(&lista_inicial);
+                break;
+
+            case '2':
+                menu_add();
+                break;
+
+            case '3':
+                menu_remover();
+                break;
+            case '4':
+                exibir();
+                break;
+            
+            case '5':
+                posicao();
+                break;
+            
+            case '6':
+                limpar();
+                break;
+            
+            case '7':
+                menu_primeira();
+                break;
+
+            case '8':
+                sair = 0;
+                break;
+
+                break;
+            
+        };
+
+
+    }
+    return 0;
+}
+
 
 void menu_add(void){
     while (1){
@@ -97,48 +178,28 @@ void limpar(){
     }
 }
 
-int entrada(){
-    int escolha = 0;
+char entrada(){
+    char escolha, lixo;
     printf("Digite sua escolha: \n");
-    scanf("%d", &escolha);
-
-    if (! isascii(escolha)) (printf("Digite uma opcao valida\n")) ;
+    scanf("%c%c", &escolha, &lixo);
     return escolha;
 }
 
-int main(void) {
 
-    dado = 0;
+int menu_primeira(){
+    int elememento;
+    if (listaCheia(&lista_inicial)) {
+        printf("A lista esta cheia\n");
+        return 0;
+    }
+    printf("\nDigite o elemento que deseja inserir na primeira posição: ");
+    scanf("%d\n", &elememento);
+    
 
-    criarLista(&lista_inicial);
-
-    while (1) {
-        int escolha = 0;
-        printf("   Editor de Listas\n");
-        printf("______________________\n");
-        printf("1 - Exibir Listas\n");
-        printf("2 - Insirir\n");
-        printf("3 - Remover\n");
-        printf("4 - Exibir elemento\n");
-        printf("5 - Exibir posicao\n");
-        printf("6 - Esvasiar lista\n");
-        printf("7 - Sair\n");
-        printf("\n");
-        printf("Digite sua opcao []\n");
-
-
-        escolha = entrada();
-
-
-        if ((escolha > 0 && escolha < 8)) {
-            if (escolha == 1) imprimir(&lista_inicial);
-            else if (escolha == 2) menu_add();
-            else if (escolha == 3) menu_remover();
-            else if (escolha == 4) exibir();
-            else if (escolha == 5) posicao();
-            else if (escolha == 6) limpar();
-            else if (escolha == 7) break;
-        } else printf("Opcao Invalida, Tente novamente\n");
+    if (inserir_Primeira(&lista_inicial, elememento)==1) {
+        printf("sucesso!\n");
+        return 1;
     }
     return 0;
+
 }

@@ -53,3 +53,8 @@ int removerElemento( TLista* lista, int posicao, int *dado );
 
 // Procedimento que imprime todos os elementos da lista sequencial
 void imprimir( TLista* lista );
+
+// criando novos elementos 
+
+// inserindo elemento na primeira posição 
+int inserir_Primeira( TLista* lista, int elemento );

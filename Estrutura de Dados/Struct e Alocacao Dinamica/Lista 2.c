@@ -86,7 +86,7 @@ int main(void){
 }
 
  */
-
+/*
 //
 //                                         2 Função splitInt
 //
@@ -161,10 +161,14 @@ int* split_int(char *s, int *size){
     if(pos > 0) {
        aux[pos] = '\0';
        p[cn] = atoi(aux);
-       cn++;
+
     }
 
     return p;
 }
+
+
+*/
+
 
 
