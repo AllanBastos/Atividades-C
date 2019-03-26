@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c">
+		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c">
 			<Option target="Atividades_C"/>
 		</Unit>
 		<Unit filename="/home/allan/CLionProjects/atividades-c/CMakeLists.txt">

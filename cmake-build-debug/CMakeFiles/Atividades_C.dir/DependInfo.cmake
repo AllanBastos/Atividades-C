@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

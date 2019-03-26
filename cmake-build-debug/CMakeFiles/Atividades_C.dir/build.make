@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-191.6183.6/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-191.6183.6/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,30 +57,45 @@ include CMakeFiles/Atividades_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Atividades_C.dir/flags.make
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o: ../Estrutura\ de\ Dados/Struct\ e\ Alocacao\ Dinamica/Lista\ 2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o: ../Estrutura\ de\ Dados/Struct\ e\ Alocacao\ Dinamica/pacote.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o: ../Estrutura\ de\ Dados/Struct\ e\ Alocacao\ Dinamica/testepacotes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c"
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s
 
 # Object files for target Atividades_C
 Atividades_C_OBJECTS = \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o"
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o" \
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o"
 
 # External object files for target Atividades_C
 Atividades_C_EXTERNAL_OBJECTS =
 
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o
 Atividades_C: CMakeFiles/Atividades_C.dir/build.make
 Atividades_C: CMakeFiles/Atividades_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Atividades_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Atividades_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atividades_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

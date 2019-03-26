@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o"
   "Atividades_C.pdb"
   "Atividades_C"
 )

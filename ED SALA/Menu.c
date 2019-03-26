@@ -19,7 +19,7 @@ void limpar();
 
 char entrada();
 
-int menu_primeira();
+void menu_primeira();
 
 
 
@@ -79,6 +79,8 @@ int main(void) {
                 sair = 0;
                 break;
 
+            default:
+                printf("Tente novamente\n");
                 break;
             
         };
@@ -179,27 +181,30 @@ void limpar(){
 }
 
 char entrada(){
-    char escolha, lixo;
+    char escolha=0;
     printf("Digite sua escolha: \n");
-    scanf("%c%c", &escolha, &lixo);
+    scanf("%c", &escolha);
     return escolha;
 }
 
 
-int menu_primeira(){
+void menu_primeira(){
     int elememento;
     if (listaCheia(&lista_inicial)) {
         printf("A lista esta cheia\n");
-        return 0;
     }
-    printf("\nDigite o elemento que deseja inserir na primeira posição: ");
-    scanf("%d\n", &elememento);
-    
-
-    if (inserir_Primeira(&lista_inicial, elememento)==1) {
+    else {
+        (printf("\nDigite o elemento que deseja inserir na primeira posição: "));
+        scanf("%d\n", &elememento);
+         if (inserir_Primeira(&lista_inicial, elememento)==1) {
         printf("sucesso!\n");
-        return 1;
+        }else
+        {
+            printf("Falha\n");
+        }
+        
     }
-    return 0;
 
+   
+    
 }

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-191.6183.6/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-191.6183.6/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/allan/CLionProjects/atividades-c/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-191.6183.6/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/61/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-191.6183.6/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/61/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,59 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o
 
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.o
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o
 
 # target to build an object file
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.o
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o
 
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.i: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.i: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i
 
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.i
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.i
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.i
 
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.s: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.s: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s
 
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.s
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s
-.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.c.s
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.s
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.o
+
+# target to build an object file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.i: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.i
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.s: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.o"
-	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.i"
-	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Lista_2.s"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.i"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.s"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.o"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.i"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.s"
 .PHONY : help
 
 

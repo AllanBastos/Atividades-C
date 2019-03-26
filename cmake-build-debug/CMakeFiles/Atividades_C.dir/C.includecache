@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c
-stdio.h
--
-string.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h
+stdint-gcc.h
 -
 stdlib.h
 -
-stdlib.h
+string.h
 -
 stdio.h
 -
-ctype.h
--
-string.h
+
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c
+pacote.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h
+stdio.h
 -
 
