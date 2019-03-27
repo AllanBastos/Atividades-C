@@ -4,76 +4,93 @@
 
 #include "pacote.h"
 
-packet * createDataPacket(int8_t id, int end_org, int end_dest, int carga){
-    packet novo, *p;
+packet * createDataPacket(int id, int end_org, int end_dest, int tamanho){
 
-    novo.carga = (int*) malloc(carga* sizeof(int *));
+    packet *novo;
+    novo = (packet*) malloc(sizeof(packet));
 
-    novo.identificacor = id;
-    novo.end_origem =  end_org;
-    novo.end_destino = end_dest;
-    novo.tipo = (char) 'DATA';
-    novo.tamanho = (int8_t) carga;
-    p = &novo;
+    novo->identificacor = id;
+    novo->end_origem =  end_org;
+    novo->end_destino = end_dest;
+    novo->tipo = DATA;
+    novo->tamanho = tamanho;
 
-    return p;
+    char *p;
+    p = (char*)malloc(tamanho*sizeof(char));
+
+    novo->carga = p;
+
+
+
+    return novo;
 
 }
 
+packet * createACKPacket(int id, int end_org, int end_dest) {
+    packet *novo;
 
-packet * createACKPacket(int8_t id, int end_org, int end_dest) {
-    packet novo, *p;
+    novo = (packet*) malloc(sizeof(packet));
 
-    novo.identificacor = id;
-    novo.end_origem =  end_org;
-    novo.end_destino = end_dest;
-    novo.tipo = (char) 'ACK';
-    novo.tamanho = 0;
-    novo.carga = NULL;
-    p = &novo;
 
-    return p;
+    novo->identificacor = id;
+    novo->end_origem =  end_org;
+    novo->end_destino = end_dest;
+    novo->tipo = ACK;
+    novo->tamanho = 0;
+    novo->carga = NULL;
+
+
+    return novo;
 }
 
 
 
 
-void writeData(packet *pacote, int *carga, int tam) {
+void writeData(packet *pacote, char *carga, int tam) {
     int i;
-
+    int chave = 0;
     for(i=0; i<tam; i++){
-        if ((i <= pacote->tamanho)){
+
+        if(carga[i] != '\0' && chave == 0){
             pacote->carga[i] = carga[i];
+        }else{
+            pacote->carga[i] = 0;
+            chave = 1;
         }
-        else ((pacote->carga[i] = 0));
+
     }
 }
+
 
 
 packet * clonePacket(packet *pacote){
-    packet copia, *p;
+    packet *copia;
 
-    copia.carga = (int *) malloc(pacote->tamanho* sizeof(int));
+    copia = (packet*) malloc(sizeof(packet));
 
-    copia.tamanho = pacote->tamanho;
-    copia.tipo = pacote->tipo;
-    copia.end_origem = pacote->end_origem;
-    copia.end_destino = pacote->end_destino;
 
-    copia.identificacor = pacote->identificacor;
 
-    for (int i=0; i<= pacote->tamanho; i++){
-        copia.carga[i] = pacote->carga[i];
+    copia->tipo = pacote->tipo;
+    copia->end_origem = pacote->end_origem;
+    copia->end_destino = pacote->end_destino;
+    copia->tamanho = pacote->tamanho;
+    copia->identificacor = pacote->identificacor;
+
+    if (pacote->tipo == 0){
+        copia->carga = (char*) malloc(pacote->tamanho* sizeof(char));
+        for (int i=0; i<= pacote->tamanho; i++) {
+            copia->carga[i] = pacote->carga[i];
+        }
+
     }
 
-    p = &copia;
 
-    return p;
+    return copia;
 }
 
 void printPacketInformation(packet *pacote){
 
-    if (strcmp(pacote->tipo, 'DATA')==0){
+    if (pacote->tipo == 0){
 
         printf("type : DATA\n");
         printf("ID : %d\n", pacote->identificacor);
@@ -81,7 +98,8 @@ void printPacketInformation(packet *pacote){
         printf("Destination Anddress : %d\n", pacote->end_destino);
         printf("Payload Size :  %d\n", pacote->tamanho);
         printf("payload: ");
-        for (int i=0; i<= pacote->tamanho; i++){
+
+        for (int i=0; i< pacote->tamanho; i++){
             printf("%d ", pacote->carga[i]);
         }
 
@@ -89,7 +107,7 @@ void printPacketInformation(packet *pacote){
 
     }
     else{
-        printf("type : %c\n", pacote->tipo);
+        printf("type ACK: \n");
         printf("ID : %d\n", pacote->identificacor);
         printf("Soucer Address : %d\n", pacote->end_origem);
         printf("Destination Anddress : %d\n", pacote->end_destino);
@@ -101,5 +119,5 @@ void printPacketInformation(packet *pacote){
 void deletePacket(packet *pacote){
     free(pacote->carga);
     free(pacote);
-    printf("pacote deletado");
+    printf("pacote deletado\n");
 }

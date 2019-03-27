@@ -123,6 +123,60 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.o
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.o
+
+# target to build an object file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.o
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.o
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.i: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.i
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.i
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.i
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.s: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.s
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.s
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.s
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.o
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.o
+
+# target to build an object file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.o
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.o
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.i: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.i
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.i
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.i
+
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.s: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.s
+
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.s
+.PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.s
+
 Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o: Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o
 
 .PHONY : Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o
@@ -186,6 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.o"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.i"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.s"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.o"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.i"
+	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.s"
 	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.o"
 	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.i"
 	@echo "... Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.s"

@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Questão 4.c">
+			<Option target="Atividades_C"/>
+		</Unit>
 		<Unit filename="/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c">
 			<Option target="Atividades_C"/>
 		</Unit>

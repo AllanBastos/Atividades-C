@@ -1,0 +1,26 @@
+//
+// Created by allan on 17/03/19.
+//
+
+
+//                                 Exercicio - Structs e Alocação dinamica de Memoria
+
+// Questão 1: Qual a saída fornecida por esse programa??
+//
+//Media de Maria: 92.00
+// o a2 ficar sem nome
+// e a media dele será 90.00
+
+
+// Questão 2:
+// Na linha 25 a Variavel do a2 está recebendo a variavel a1 completa, e por isso que
+// Quando voce mudar os valores do a2 voce estará mudando a variavel do a1 tambem;
+
+
+
+// Questão 3:
+// Na linha 43 e 44 esta sendo limpo o espaço de memoria alocado anteriomente;
+// se você usar esse comando antes de terminar de usar as variaveis, pode ocorrer
+// erro de saida; mas se você não ultiliza-la no final do seu programa, a memoria
+// alocada por ele, vai permanecer, podendo ocorrer consumo de memoria
+// desnecessario no Sistema.
