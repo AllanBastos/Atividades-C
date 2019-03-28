@@ -3,4 +3,5 @@ project(Atividades_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Atividades_C   "Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h" "Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c" "Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" "Estrutura de Dados/Struct e Alocacao Dinamica/Questão 4.c" "Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c")
+add_executable(Atividades_C "Estrutura de Dados/Listas/listalinear.c" "Estrutura de Dados/Listas/listalinear.h" "Estrutura de Dados/Listas/testelistalinear.c" )
+

@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Funcao_split.c.o"
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/Questão 4.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/Questão_4.c.o"
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/pacote.c.o"
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Struct_e_Alocacao_Dinamica/testepacotes.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

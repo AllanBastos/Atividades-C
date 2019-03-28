@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h
-stdint-gcc.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c
+stdio.h
 -
 stdlib.h
 -
-string.h
--
+listalinear.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.h
+
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.h
 stdio.h
+-
+stdlib.h
 -
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c
-pacote.h
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Struct e Alocacao Dinamica/pacote.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c
 stdio.h
 -
+listalinear.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.h
 
