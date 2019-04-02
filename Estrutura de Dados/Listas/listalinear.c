@@ -66,3 +66,58 @@ void libera(lista *l) {
     free(l->val);
     free(l);
 }
+
+int hasElement(lista* l, int elemento){
+
+    if (l->ue == 0) return 0;
+
+    for (int i=0; i < l->ue; i++){
+        if (l->val[i] == elemento) return i;
+    }
+    return -1;
+}
+
+
+
+int  insertPosition(lista * l, int elemento, int pos ){
+
+    if (l->ue == l->max) {
+        int *aux = (int *) realloc(l->val, 2 * l->max * sizeof(int));
+        if (aux == NULL) {
+            return -1;
+        } else {
+            l->val = aux;
+            l->max *= 2;
+        }
+    }
+    if (pos < 0 || pos > l->ue+1 )return -1;
+    else{
+        if (pos == l->ue){
+            l->val[pos] = elemento;
+            l->ue++;
+        }
+        else{
+            for(int i = l->ue; i != pos; i--){
+                l->val[i] = l->val[i-1];
+            }
+            l->val[pos] = elemento;
+            l->ue++;
+        }
+    }
+
+    return 0;
+
+}
+
+
+int removeElement(lista * l, int elemento){
+
+    int i;
+
+    i = hasElement(l, elemento);
+    if (i > -1) remove_pos(l, i);
+
+    return i;
+}
+
+

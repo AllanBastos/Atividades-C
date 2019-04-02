@@ -20,3 +20,9 @@ int get(const lista *l, int i);
 void printLista(const lista *l);
 
 void libera(lista *l);
+
+int hasElement(lista* l, int elemento);
+
+int  insertPosition(lista * l, int elemento, int pos );
+
+int removeElement(lista * l, int elemento);
