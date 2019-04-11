@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o"
-  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
   "Atividades_C.pdb"
   "Atividades_C"
 )

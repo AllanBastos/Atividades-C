@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o"
-  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o"
+  "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c" "/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

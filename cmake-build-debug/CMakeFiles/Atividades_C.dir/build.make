@@ -57,42 +57,42 @@ include CMakeFiles/Atividades_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Atividades_C.dir/flags.make
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o: ../Estrutura\ de\ Dados/Listas/listalinear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o: ../Estrutura\ de\ Dados/Listas/listaencadeada.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o: ../Estrutura\ de\ Dados/Listas/testelistalinear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o: ../Estrutura\ de\ Dados/Listas/testarlistaencadeada.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
 
 # Object files for target Atividades_C
 Atividades_C_OBJECTS = \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o" \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o"
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o" \
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
 
 # External object files for target Atividades_C
 Atividades_C_EXTERNAL_OBJECTS =
 
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
 Atividades_C: CMakeFiles/Atividades_C.dir/build.make
 Atividades_C: CMakeFiles/Atividades_C.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Atividades_C"

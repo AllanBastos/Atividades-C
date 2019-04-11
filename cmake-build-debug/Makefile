@@ -123,59 +123,59 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Listas/listalinear.o: Estrutura_de_Dados/Listas/listalinear.c.o
+Estrutura_de_Dados/Listas/listaencadeada.o: Estrutura_de_Dados/Listas/listaencadeada.c.o
 
-.PHONY : Estrutura_de_Dados/Listas/listalinear.o
-
-# target to build an object file
-Estrutura_de_Dados/Listas/listalinear.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.o
-.PHONY : Estrutura_de_Dados/Listas/listalinear.c.o
-
-Estrutura_de_Dados/Listas/listalinear.i: Estrutura_de_Dados/Listas/listalinear.c.i
-
-.PHONY : Estrutura_de_Dados/Listas/listalinear.i
-
-# target to preprocess a source file
-Estrutura_de_Dados/Listas/listalinear.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.i
-.PHONY : Estrutura_de_Dados/Listas/listalinear.c.i
-
-Estrutura_de_Dados/Listas/listalinear.s: Estrutura_de_Dados/Listas/listalinear.c.s
-
-.PHONY : Estrutura_de_Dados/Listas/listalinear.s
-
-# target to generate assembly for a file
-Estrutura_de_Dados/Listas/listalinear.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listalinear.c.s
-.PHONY : Estrutura_de_Dados/Listas/listalinear.c.s
-
-Estrutura_de_Dados/Listas/testelistalinear.o: Estrutura_de_Dados/Listas/testelistalinear.c.o
-
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.o
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.o
 
 # target to build an object file
-Estrutura_de_Dados/Listas/testelistalinear.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.o
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.c.o
+Estrutura_de_Dados/Listas/listaencadeada.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.o
 
-Estrutura_de_Dados/Listas/testelistalinear.i: Estrutura_de_Dados/Listas/testelistalinear.c.i
+Estrutura_de_Dados/Listas/listaencadeada.i: Estrutura_de_Dados/Listas/listaencadeada.c.i
 
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.i
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Listas/testelistalinear.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.i
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.c.i
+Estrutura_de_Dados/Listas/listaencadeada.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.i
 
-Estrutura_de_Dados/Listas/testelistalinear.s: Estrutura_de_Dados/Listas/testelistalinear.c.s
+Estrutura_de_Dados/Listas/listaencadeada.s: Estrutura_de_Dados/Listas/listaencadeada.c.s
 
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.s
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Listas/testelistalinear.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testelistalinear.c.s
-.PHONY : Estrutura_de_Dados/Listas/testelistalinear.c.s
+Estrutura_de_Dados/Listas/listaencadeada.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s
+.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.s
+
+Estrutura_de_Dados/Listas/testarlistaencadeada.o: Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
+
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.o
+
+# target to build an object file
+Estrutura_de_Dados/Listas/testarlistaencadeada.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
+
+Estrutura_de_Dados/Listas/testarlistaencadeada.i: Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
+
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Listas/testarlistaencadeada.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
+
+Estrutura_de_Dados/Listas/testarlistaencadeada.s: Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
+
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Listas/testarlistaencadeada.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
+.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Listas/listalinear.o"
-	@echo "... Estrutura_de_Dados/Listas/listalinear.i"
-	@echo "... Estrutura_de_Dados/Listas/listalinear.s"
-	@echo "... Estrutura_de_Dados/Listas/testelistalinear.o"
-	@echo "... Estrutura_de_Dados/Listas/testelistalinear.i"
-	@echo "... Estrutura_de_Dados/Listas/testelistalinear.s"
+	@echo "... Estrutura_de_Dados/Listas/listaencadeada.o"
+	@echo "... Estrutura_de_Dados/Listas/listaencadeada.i"
+	@echo "... Estrutura_de_Dados/Listas/listaencadeada.s"
+	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.o"
+	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.i"
+	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.s"
 .PHONY : help
 
 

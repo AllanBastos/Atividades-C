@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c
+listaencadeada.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.h
 stdio.h
 -
 stdlib.h
 -
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testelistalinear.c
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.h
 stdio.h
 -
-listalinear.h
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listalinear.h
+
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c
+stdio.h
+-
+listaencadeada.h
+/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.h
 

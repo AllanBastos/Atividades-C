@@ -12,12 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386ab706-93d6-40f5-980f-34b10d2fc33e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/testarlistaencadeada.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/numeros nas string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/allan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/allan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.h" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Atividades_C" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Atividades_C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Atividades_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Atividades_C.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,47 +47,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="169" selection-start-line="5" selection-start-column="169" selection-end-line="5" selection-end-column="169" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.h">
+        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/testarlistaencadeada.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#40#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c">
+        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1276#1450#0" />
-                <element signature="e#1452#2096#0" />
-                <element signature="e#2098#2244#0" />
+                <element signature="e#40#67#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -103,18 +108,23 @@
         <option value="$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/Lista 2.c" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.h" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/numeros nas string.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/ listaencadeada.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/ listaencadeada.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/testarlistaencadeada.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.h" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="373" />
-    <option name="y" value="39" />
-    <option name="width" value="672" />
+    <option name="y" value="-1" />
+    <option name="width" value="682" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -141,6 +151,12 @@
               <item name="atividades-c" type="462c0819:PsiDirectoryNode" />
               <item name="Estrutura de Dados" type="462c0819:PsiDirectoryNode" />
               <item name="Listas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Atividades_C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atividades-c" type="462c0819:PsiDirectoryNode" />
+              <item name="Estrutura de Dados" type="462c0819:PsiDirectoryNode" />
+              <item name="Struct e Alocacao Dinamica" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +229,12 @@
       <workItem from="1553714567938" duration="661000" />
       <workItem from="1553791418281" duration="3388000" />
       <workItem from="1553879254095" duration="1714000" />
-      <workItem from="1554208991479" duration="876000" />
+      <workItem from="1554208991479" duration="1304000" />
+      <workItem from="1554382979616" duration="4966000" />
+      <workItem from="1554949314867" duration="3159000" />
+      <workItem from="1554987568657" duration="649000" />
+      <workItem from="1554988262783" duration="4001000" />
+      <workItem from="1554992546776" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="salvando">
       <created>1552840479375</created>
@@ -299,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553792718789</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lista linear">
+      <created>1554209891026</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554209891026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40970000" />
+    <option name="totallyTimeSpent" value="57047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="738" extended-state="6" />
@@ -311,20 +339,20 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Project" internal_type="SLIDING" order="2" type="SLIDING" weight="0.2128788" />
+      <window_info id="Project" internal_type="SLIDING" order="2" type="SLIDING" weight="0.35551947" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09283388" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43862522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.048859935" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24222586" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32736155" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,7 +375,8 @@
     <MESSAGE value="Atividade 3 Ruan" />
     <MESSAGE value="Atividade Ruan" />
     <MESSAGE value="Listas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listas" />
+    <MESSAGE value="Lista linear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista linear" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
@@ -477,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/testepacotes.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -497,10 +516,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/Funcao_split.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Struct e Alocacao Dinamica/numeros nas string.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,25 +546,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/testelistalinear.c">
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        <state relative-caret-position="1725">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1276#1450#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listalinear.c">
+    <entry file="file:///usr/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="317" column="11" selection-start-line="317" selection-start-column="11" selection-end-line="317" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="169" selection-start-line="5" selection-start-column="169" selection-end-line="5" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/testarlistaencadeada.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1276#1450#0" />
-            <element signature="e#1452#2096#0" />
-            <element signature="e#2098#2244#0" />
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Listas/listaencadeada.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
