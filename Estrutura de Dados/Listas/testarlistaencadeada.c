@@ -82,8 +82,7 @@ int main(void){
 
     removeElement(lista, 753);
     removeElement(lista, 121);
-
-    removeElement(lista, 101);
+    removeElement(lista, 141);
 
     printList(lista);
     printf("O tamanho da lista é [%d]\n", size(lista));

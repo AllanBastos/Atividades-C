@@ -44,18 +44,21 @@ int isEmpty( const list *l){
 }
 
 void removeBack( list *l ){
-    node* aux = l->begin;
 
-    if(size(l) == 1){
+    if(size(l)==1){
+        free(l->begin);
         l->begin = NULL;
+        return;
     }
 
-    while (aux->next->next != NULL) aux = aux->next;
-
-    free(aux->next);
-    aux->next = NULL;
-
-
+    node* aux = l->begin;
+    node* anterior = l->begin;
+    while(aux!= NULL){aux = aux->next;}
+    free(aux);
+    for (int i = 1; i < size(l)-1; i++){
+        anterior = anterior->next;
+    }
+    anterior->next = NULL;
 }
 
 int size (const list *l){
@@ -167,7 +170,7 @@ int removePosition(list *l, int pos){
 int removeElement(list *l, int element){
     int pos = hasElement(l, element);
 
-    if (pos == -1) return -1;
+    if (pos == -1 ) return -1;
     removePosition(l, pos);
     return pos;
 }
