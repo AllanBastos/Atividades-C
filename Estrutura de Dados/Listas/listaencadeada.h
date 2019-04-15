@@ -29,3 +29,14 @@ int size(const list *l);
 int hasElement(list *l, int elemento);
 
 int insertPosition(list *l, int elemento, int pos );
+
+int removePosition(list *l, int pos);
+
+int removeElement(list *l, int element);
+
+int get(list *l, int pos, int *vret);
+
+
+
+
+
