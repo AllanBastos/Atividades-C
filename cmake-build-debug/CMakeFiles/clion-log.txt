@@ -1,4 +1,4 @@
-/opt/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/allan/CLionProjects/atividades-c
+/opt/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/allan/Documentos/Faculdade/CLionProjects/atividades-c
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/allan/CLionProjects/atividades-c/cmake-build-debug
+-- Build files have been written to: /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug

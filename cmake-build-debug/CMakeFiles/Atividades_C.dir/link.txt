@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o  -o Atividades_C 
+/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o  -o Atividades_C 

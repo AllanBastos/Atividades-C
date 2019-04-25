@@ -43,10 +43,10 @@ RM = /opt/clion-2019.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/allan/CLionProjects/atividades-c
+CMAKE_SOURCE_DIR = /home/allan/Documentos/Faculdade/CLionProjects/atividades-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/allan/CLionProjects/atividades-c/cmake-build-debug
+CMAKE_BINARY_DIR = /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Atividades_C.dir/depend.make
@@ -57,45 +57,30 @@ include CMakeFiles/Atividades_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Atividades_C.dir/flags.make
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o: ../Estrutura\ de\ Dados/Listas/listaencadeada.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o: ../Estrutura\ de\ Dados/Pilhas/balanço\ de\ parenteses\ 1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/balanço de parenteses 1.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/balanço de parenteses 1.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o: ../Estrutura\ de\ Dados/Listas/testarlistaencadeada.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o   -c "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c"
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/balanço de parenteses 1.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
 
 # Object files for target Atividades_C
 Atividades_C_OBJECTS = \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o" \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o"
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o"
 
 # External object files for target Atividades_C
 Atividades_C_EXTERNAL_OBJECTS =
 
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
 Atividades_C: CMakeFiles/Atividades_C.dir/build.make
 Atividades_C: CMakeFiles/Atividades_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Atividades_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Atividades_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atividades_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/Atividades_C.dir/clean:
 .PHONY : CMakeFiles/Atividades_C.dir/clean
 
 CMakeFiles/Atividades_C.dir/depend:
-	cd /home/allan/CLionProjects/atividades-c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allan/CLionProjects/atividades-c /home/allan/CLionProjects/atividades-c /home/allan/CLionProjects/atividades-c/cmake-build-debug /home/allan/CLionProjects/atividades-c/cmake-build-debug /home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allan/Documentos/Faculdade/CLionProjects/atividades-c /home/allan/Documentos/Faculdade/CLionProjects/atividades-c /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Atividades_C.dir/depend
 

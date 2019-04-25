@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.h
+/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/mainPilhaestatica.c
 stdio.h
 -
+pilhaestatica.h
+/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/pilhaestatica.h
 
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/testarlistaencadeada.c
-stdio.h
+/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/pilhaestatica.h
+stdlib.h
 -
-listaencadeada.h
-/home/allan/CLionProjects/atividades-c/Estrutura de Dados/Listas/listaencadeada.h
 

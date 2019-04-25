@@ -48,10 +48,10 @@ RM = /opt/clion-2019.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/allan/CLionProjects/atividades-c
+CMAKE_SOURCE_DIR = /home/allan/Documentos/Faculdade/CLionProjects/atividades-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/allan/CLionProjects/atividades-c/cmake-build-debug
+CMAKE_BINARY_DIR = /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles /home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/allan/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,32 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Listas/listaencadeada.o: Estrutura_de_Dados/Listas/listaencadeada.c.o
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
 
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.o
-
-# target to build an object file
-Estrutura_de_Dados/Listas/listaencadeada.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.o
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.o
-
-Estrutura_de_Dados/Listas/listaencadeada.i: Estrutura_de_Dados/Listas/listaencadeada.c.i
-
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.i
-
-# target to preprocess a source file
-Estrutura_de_Dados/Listas/listaencadeada.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.i
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.i
-
-Estrutura_de_Dados/Listas/listaencadeada.s: Estrutura_de_Dados/Listas/listaencadeada.c.s
-
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.s
-
-# target to generate assembly for a file
-Estrutura_de_Dados/Listas/listaencadeada.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/listaencadeada.c.s
-.PHONY : Estrutura_de_Dados/Listas/listaencadeada.c.s
-
-Estrutura_de_Dados/Listas/testarlistaencadeada.o: Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
-
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.o
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o
 
 # target to build an object file
-Estrutura_de_Dados/Listas/testarlistaencadeada.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.o
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
 
-Estrutura_de_Dados/Listas/testarlistaencadeada.i: Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
 
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.i
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Listas/testarlistaencadeada.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.i
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
 
-Estrutura_de_Dados/Listas/testarlistaencadeada.s: Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
 
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.s
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Listas/testarlistaencadeada.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
-.PHONY : Estrutura_de_Dados/Listas/testarlistaencadeada.c.s
+Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
+.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Listas/listaencadeada.o"
-	@echo "... Estrutura_de_Dados/Listas/listaencadeada.i"
-	@echo "... Estrutura_de_Dados/Listas/listaencadeada.s"
-	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.o"
-	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.i"
-	@echo "... Estrutura_de_Dados/Listas/testarlistaencadeada.s"
+	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o"
+	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i"
+	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s"
 .PHONY : help
 
 
