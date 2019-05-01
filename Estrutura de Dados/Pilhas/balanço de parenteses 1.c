@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wfor-loop-analysis"
 #define max 10
 
 typedef char tipo_elemento;
@@ -36,18 +38,24 @@ tipo_elemento pop(pilha *p) {
 }
 
 int main(void){
-    char str[100];
+    char str[1001];
 
-    scanf("%s", str);
+
     pilha *p = criaPilha();
 
 
-    for (int i = 0; str[i] != '\0' ; ++i) {
+    for (int i = 0; str[i] != '\0' ; i++) {
         if (str[i] == '(') push(p, '(');
-        else if (str[i] == ')') pop(p);
+        else if (str[i] == ')' && p->topo != 0) pop(p);
+        else if (str[i] == ')' && p->topo == 0) {
+            printf("incorrect\n");
+            break;
+        }
     }
+    if (p->topo > 0) printf("incorrect");
+    else if (p->topo == 0)printf("correct\n");
 
-
+    return 0;
 
 
 }

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/Estrutura de Dados/Pilhas/balanço de parenteses 1.c" "/home/allan/Documentos/Faculdade/CLionProjects/atividades-c/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o"
+  "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/balanço de parenteses 1.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
