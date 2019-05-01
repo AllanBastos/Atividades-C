@@ -58,10 +58,11 @@ int verificar(pilha *p, char *str){
 int main(void){
     char str[1001];
 
-    scanf("%s", str);
-    pilha *p = criaPilha();
+    while (scanf("%s", str) != EOF) {
+        pilha *p = criaPilha();
 
-    printf("%s\n", verificar(p, str) ? "correct":"incorrect");
+        printf("%s\n", verificar(p, str) ? "correct" : "incorrect");
+    }
 
     return 0;
 
