@@ -37,25 +37,33 @@ tipo_elemento pop(pilha *p) {
     return p->vet[--p->topo];
 }
 
-int main(void){
-    char str[1001];
-
-
-    pilha *p = criaPilha();
+int verificar(pilha *p, char *str){
 
 
     for (int i = 0; str[i] != '\0' ; i++) {
-        if (str[i] == '(') push(p, '(');
+        if (str[i] == '(' ) push(p, '(');
         else if (str[i] == ')' && p->topo != 0) pop(p);
         else if (str[i] == ')' && p->topo == 0) {
-            printf("incorrect\n");
-            break;
+            return 0;
         }
     }
-    if (p->topo > 0) printf("incorrect");
-    else if (p->topo == 0)printf("correct\n");
+    if (p->topo > 0) return 0;
+    else if (p->topo == 0) return 1;
+
+    return 1;
+}
+
+
+
+int main(void){
+    char str[1001];
+
+    scanf("%s", str);
+    pilha *p = criaPilha();
+
+    printf("%s\n", verificar(p, str) ? "correct":"incorrect");
 
     return 0;
 
-
 }
+
