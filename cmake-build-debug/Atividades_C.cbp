@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/balanço de parenteses 1.c">
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/mainPilhadinamica.c">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.c">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.h">
 			<Option target="Atividades_C"/>
 		</Unit>
 		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/CMakeLists.txt">

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o"
   "Atividades_C.pdb"
   "Atividades_C"
 )

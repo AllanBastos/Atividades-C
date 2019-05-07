@@ -123,32 +123,59 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.o: Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o
 
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.o
 
 # target to build an object file
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.o
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o
 
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.i: Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i
 
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.i
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i
 
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s: Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.s: Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s
 
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
-.PHONY : Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.c.s
+Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s
+.PHONY : Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s
+
+Estrutura_de_Dados/Pilhas/pilhadinamica.o: Estrutura_de_Dados/Pilhas/pilhadinamica.c.o
+
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.o
+
+# target to build an object file
+Estrutura_de_Dados/Pilhas/pilhadinamica.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.c.o
+
+Estrutura_de_Dados/Pilhas/pilhadinamica.i: Estrutura_de_Dados/Pilhas/pilhadinamica.c.i
+
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Pilhas/pilhadinamica.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.i
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.c.i
+
+Estrutura_de_Dados/Pilhas/pilhadinamica.s: Estrutura_de_Dados/Pilhas/pilhadinamica.c.s
+
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Pilhas/pilhadinamica.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.s
+.PHONY : Estrutura_de_Dados/Pilhas/pilhadinamica.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.o"
-	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.i"
-	@echo "... Estrutura_de_Dados/Pilhas/balanço_de_parenteses_1.s"
+	@echo "... Estrutura_de_Dados/Pilhas/mainPilhadinamica.o"
+	@echo "... Estrutura_de_Dados/Pilhas/mainPilhadinamica.i"
+	@echo "... Estrutura_de_Dados/Pilhas/mainPilhadinamica.s"
+	@echo "... Estrutura_de_Dados/Pilhas/pilhadinamica.o"
+	@echo "... Estrutura_de_Dados/Pilhas/pilhadinamica.i"
+	@echo "... Estrutura_de_Dados/Pilhas/pilhadinamica.s"
 .PHONY : help
 
 

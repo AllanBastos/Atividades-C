@@ -1,4 +1,5 @@
 #include "pilhadinamica.h"
+#include <stdio.h>
 
 pilha* criaPilha () {
     pilha *p = (pilha*)malloc(sizeof(pilha));
@@ -7,11 +8,24 @@ pilha* criaPilha () {
 }
 
 void push (pilha *p, int v) {
-    //Incluir a implementação
+    no * novo = (no*) malloc(sizeof(no));
+    novo->valor = v;
+    if (p->topo != NULL) novo->prox = p->topo;
+    else {
+        novo->prox = NULL;
+    }
+    p->topo = novo;
+
 }
 
 int pop (pilha *p) {
-    //Incluir a implementação
+    if (p->topo == NULL) return 0;
+    int valor = 0;
+    no *aux = p->topo;
+    p->topo = (p->topo)->prox;
+    valor = aux->valor;
+    free(aux);
+    return valor;
 }
 
 void limpaPilha (pilha *p) {
@@ -23,4 +37,16 @@ void limpaPilha (pilha *p) {
         q = t;
     }
     p->topo = NULL; 
+}
+
+void imprimir(pilha *p){
+    no *aux = p->topo;
+    printf("\n[ ");
+    while(aux != NULL){
+        printf("%d ", aux->valor);
+        aux = aux->prox;
+
+    }
+    printf("]\n");
+
 }
