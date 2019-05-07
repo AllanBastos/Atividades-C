@@ -19,3 +19,5 @@ void push (pilha *p, tipo_elemento v);
 tipo_elemento pop(pilha *p);
 
 void limpaPilha(pilha *p);
+
+void imprimir(pilha *p);

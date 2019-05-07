@@ -18,9 +18,9 @@ void push (pilha *p, int v) {
 
 }
 
-int pop (pilha *p) {
+tipo_elemento pop (pilha *p) {
     if (p->topo == NULL) return 0;
-    int valor = 0;
+    tipo_elemento valor = 0;
     no *aux = p->topo;
     p->topo = (p->topo)->prox;
     valor = aux->valor;
@@ -41,12 +41,11 @@ void limpaPilha (pilha *p) {
 
 void imprimir(pilha *p){
     no *aux = p->topo;
-    printf("\n[ ");
+
     while(aux != NULL){
-        printf("%d ", aux->valor);
+        printf("[ %d ]\n", aux->valor);
         aux = aux->prox;
 
     }
-    printf("]\n");
 
 }

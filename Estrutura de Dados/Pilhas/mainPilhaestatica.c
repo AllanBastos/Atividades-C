@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 #include "pilhaestatica.h"
+#include <stdlib.h>
+
 
 int main(void){
     pilha* p;
