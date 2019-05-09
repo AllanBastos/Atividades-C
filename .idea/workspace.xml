@@ -12,18 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386ab706-93d6-40f5-980f-34b10d2fc33e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.c" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Atividades_C" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Atividades_C" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Atividades_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Atividades_C.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Atividades_C.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -37,35 +42,28 @@
     <option name="formatViaClangd" value="false" />
     <option name="clangWarnings" value="-Wno-unused-variable,-Wno-shadow,-Wshadow-field-in-constructor-modified,-Wshadow-ivar,-Wno-switch,-Wno-parentheses,-Wbitwise-op-parentheses,-Wdangling-else,-Wlogical-not-parentheses,-Wlogical-op-parentheses,-Woverloaded-shift-op-parentheses,-Wparentheses-equality,-Wshift-op-parentheses,-Werror=implicit-function-declaration,-Wno-string-compare" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="114" selection-start-line="5" selection-start-column="114" selection-end-line="5" selection-end-column="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -106,17 +104,21 @@
         <option value="$PROJECT_DIR$/ED SALA/pilhaseqmain.c" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhaestatica.h" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhaestatica.c" />
-        <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhaestatica.c" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/balanço de parenteses 1.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhaestatica.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.h" />
         <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhadinamica.c" />
+        <option value="$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="width" value="1362" />
-    <option name="height" value="738" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="682" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -230,7 +232,10 @@
       <workItem from="1556732926028" duration="67000" />
       <workItem from="1556733193002" duration="54000" />
       <workItem from="1556733323972" duration="5912000" />
-      <workItem from="1557270476032" duration="1393000" />
+      <workItem from="1557270476032" duration="2496000" />
+      <workItem from="1557409208052" duration="31000" />
+      <workItem from="1557409967731" duration="12000" />
+      <workItem from="1557410002986" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="salvando">
       <created>1552840479375</created>
@@ -351,14 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556738098519</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Crindo o teste">
+      <created>1557271941307</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557271941308</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Tudo right">
+      <created>1557272811108</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557272811109</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95595000" />
+    <option name="totallyTimeSpent" value="99556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1362" height="738" extended-state="4" />
+    <frame x="0" y="-1" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -366,17 +385,17 @@
       <window_info id="Project" internal_type="SLIDING" order="2" type="SLIDING" weight="0.35530302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24796085" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5269168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.63784665" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.6362153" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.04893964" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.3257329" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.3257329" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,7 +423,9 @@
     <MESSAGE value="Funcionando" />
     <MESSAGE value="Funcionando com função" />
     <MESSAGE value="Funcionando com função add o EOF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionando com função add o EOF" />
+    <MESSAGE value="Crindo o teste" />
+    <MESSAGE value="Tudo right" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tudo right" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,11 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4500" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ED SALA/menu.c" />
     <entry file="file://$PROJECT_DIR$/ED SALA/isso ai.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,23 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhaestatica.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhaestatica.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Revisao Algoritmos/Divisores 1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -718,20 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhaestatica.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -742,20 +727,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhaestatica.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="114" selection-start-line="5" selection-start-column="114" selection-end-line="5" selection-end-column="114" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="720">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/mainPilhadinamica.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhaestatica.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/pilhadinamica.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estrutura de Dados/Pilhas/Trilhos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="75" column="9" lean-forward="true" selection-end-line="104" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>

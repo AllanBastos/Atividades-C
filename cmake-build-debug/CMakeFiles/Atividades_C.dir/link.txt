@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o  -o Atividades_C 
+/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o  -o Atividades_C 

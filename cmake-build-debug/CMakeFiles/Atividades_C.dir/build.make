@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2019.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2019.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,45 +57,30 @@ include CMakeFiles/Atividades_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Atividades_C.dir/flags.make
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o: ../Estrutura\ de\ Dados/Pilhas/pilhadinamica.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o: ../Estrutura\ de\ Dados/Pilhas/Trilhos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.s
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o: ../Estrutura\ de\ Dados/Pilhas/mainPilhadinamica.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/mainPilhadinamica.c"
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/mainPilhadinamica.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.i
-
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/mainPilhadinamica.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.s
 
 # Object files for target Atividades_C
 Atividades_C_OBJECTS = \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o" \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o"
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o"
 
 # External object files for target Atividades_C
 Atividades_C_EXTERNAL_OBJECTS =
 
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o
 Atividades_C: CMakeFiles/Atividades_C.dir/build.make
 Atividades_C: CMakeFiles/Atividades_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Atividades_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Atividades_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atividades_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

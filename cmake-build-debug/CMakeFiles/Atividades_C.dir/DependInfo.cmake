@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/mainPilhadinamica.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/mainPilhadinamica.c.o"
-  "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/pilhadinamica.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/pilhadinamica.c.o"
+  "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
