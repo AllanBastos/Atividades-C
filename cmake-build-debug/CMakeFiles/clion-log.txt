@@ -1,7 +1,4 @@
 /opt/clion-2019.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/allan/Documentos/Faculdade/CLionProjects/Atividades-C
 -- Configuring done
-CMake Error at CMakeLists.txt:6 (add_executable):
-  No SOURCES given to target: Atividades_C
-
-
+-- Generating done
 -- Build files have been written to: /home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug

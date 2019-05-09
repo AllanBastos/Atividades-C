@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos.c">
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos novamente.c">
 			<Option target="Atividades_C"/>
 		</Unit>
 		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/CMakeLists.txt">

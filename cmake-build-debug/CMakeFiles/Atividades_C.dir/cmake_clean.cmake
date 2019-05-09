@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o"
+  "CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o"
   "Atividades_C.pdb"
   "Atividades_C"
 )

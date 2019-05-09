@@ -123,32 +123,32 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Pilhas/Trilhos.o: Estrutura_de_Dados/Pilhas/Trilhos.c.o
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.o: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.o
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.o
 
 # target to build an object file
-Estrutura_de_Dados/Pilhas/Trilhos.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.o
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.c.o
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
 
-Estrutura_de_Dados/Pilhas/Trilhos.i: Estrutura_de_Dados/Pilhas/Trilhos.c.i
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.i: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.i
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Pilhas/Trilhos.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.i
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.c.i
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
 
-Estrutura_de_Dados/Pilhas/Trilhos.s: Estrutura_de_Dados/Pilhas/Trilhos.c.s
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.s: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.s
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Pilhas/Trilhos.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos.c.s
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos.c.s
+Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
+.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos.o"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos.i"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos.s"
+	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.o"
+	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.i"
+	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.s"
 .PHONY : help
 
 
