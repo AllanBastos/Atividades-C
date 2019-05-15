@@ -40,27 +40,31 @@ void insere (Tfila *f, Tfila *fP, tipo_dado * pes){
 }
 
 int retira(Tfila *f, Tfila *fP) {
-    no *temp;
-    if(fP->inicio != NULL){
-        temp = fP->inicio;
+
+    if(!filaVazia(fP)){
+        no *temp1;
+        temp1 = fP->inicio;
         fP->inicio = fP->inicio->proximo;
         if(fP->inicio == NULL) {
             fP->fim = NULL;
         }
-        free(temp); //desaloca a memória
+        free(temp1); //desaloca a memória
         return 0;
+    } else{
+        no *temp;
+
+        if(f->inicio == NULL) return -1;
+        else {
+            temp = f->inicio;
+            f->inicio = f->inicio->proximo;
+            if(f->inicio == NULL) {
+                f->fim = NULL;
+            }
+            free(temp); //desaloca a memória
+            return 0;
+        }
     }
 
-    if(f->inicio == NULL) return -1;
-    else {
-        temp = f->inicio;
-        f->inicio = f->inicio->proximo;
-        if(f->inicio == NULL) {
-            f->fim = NULL;
-        }
-        free(temp); //desaloca a memória
-        return 0;
-    }
 }
 
 void limpaFila (Tfila *f, Tfila *fP) {
@@ -85,23 +89,27 @@ void limpaFila (Tfila *f, Tfila *fP) {
 
 }
 
-int filaVazia(Tfila f) {
-    return (f.inicio == NULL);
+int filaVazia(Tfila * f) {
+    return (f->inicio == NULL);
 }
 
 
-void imprimir_fila(Tfila f, Tfila fp){
-    printf("%s\n", filaVazia(fp)? "Fila Preferencial:\n" : "Fila Preferencial vazia:\n");
+void imprimir_fila(Tfila * f, Tfila * fp) {
 
-    while (fp.inicio->proximo != NULL){
-        printf("Nome: [ %s ] Idade[ %d ]\n", fp.inicio->valor.nome, fp.inicio->valor.idade);
-        fp.inicio = fp.inicio->proximo;
+    printf("\n%s\n", !filaVazia(fp) ? "Fila Preferencial:\n" : "Fila Preferencial vazia!\n");
+    if (fp->inicio != NULL) {
+        while (fp->inicio != NULL) {
+            printf("Nome: %s  Idade: %d \n", fp->inicio->valor.nome, fp->inicio->valor.idade);
+            fp->inicio = fp->inicio->proximo;
+        }
     }
 
-    printf("%s\n", filaVazia(fp)? "Fila:\n" : "Fila vazia:\n");
+    printf("\n%s\n", !filaVazia(f) ? "Fila Normal: \n" : "Fila Noramal vazia!\n");
 
-    while (f.inicio->proximo != NULL){
-        printf("Nome: [ %s ] Idade[ %d ]\n", f.inicio->valor.nome, f.inicio->valor.idade);
-        f.inicio = f.inicio->proximo;
+    if (f->inicio != NULL) {
+        while (f->inicio != NULL) {
+            printf("Nome:  %s  Idade: %d \n", f->inicio->valor.nome, f->inicio->valor.idade);
+            f->inicio = f->inicio->proximo;
+        }
     }
 }

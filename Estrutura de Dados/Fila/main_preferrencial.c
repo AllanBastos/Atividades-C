@@ -28,12 +28,12 @@ int main(void){
     insere(filaNorm, filaPref, p5);
     insere(filaNorm, filaPref, p6);
 
+    retira(filaNorm, filaPref);
     imprimir_fila(filaNorm, filaPref);
-
     retira(filaNorm, filaPref);
     retira(filaNorm, filaPref);
     retira(filaNorm, filaPref);
-    retira(filaNorm, filaPref);
+    imprimir_fila(filaNorm, filaPref);
     retira(filaNorm, filaPref);
     retira(filaNorm, filaPref);
 

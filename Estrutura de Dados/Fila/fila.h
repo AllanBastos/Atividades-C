@@ -40,9 +40,9 @@ int retira(Tfila *f, Tfila *fP);
 
 void limpaFila(Tfila *f, Tfila *fP);
 
-int filaVazia(Tfila f);
+int filaVazia(Tfila * f);
 
-void imprimir_fila(Tfila f, Tfila fp);
+void imprimir_fila(Tfila * f, Tfila * fp);
 
 
 
