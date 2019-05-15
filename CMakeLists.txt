@@ -3,4 +3,4 @@ project(Atividades_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Atividades_C "Estrutura de Dados/Pilhas/Trilhos novamente.c")
+add_executable(Atividades_C "Estrutura de Dados/Fila/fila.c" "Estrutura de Dados/Fila/fila.h" "Estrutura de Dados/Fila/main_preferrencial.c")

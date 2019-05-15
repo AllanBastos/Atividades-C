@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos novamente.c">
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.c">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.h">
+			<Option target="Atividades_C"/>
+		</Unit>
+		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/main_preferrencial.c">
 			<Option target="Atividades_C"/>
 		</Unit>
 		<Unit filename="/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/CMakeLists.txt">

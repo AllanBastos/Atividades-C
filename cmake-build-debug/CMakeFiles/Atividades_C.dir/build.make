@@ -57,30 +57,45 @@ include CMakeFiles/Atividades_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Atividades_C.dir/flags.make
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o: CMakeFiles/Atividades_C.dir/flags.make
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o: ../Estrutura\ de\ Dados/Pilhas/Trilhos\ novamente.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos novamente.c"
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o: ../Estrutura\ de\ Dados/Fila/fila.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.c"
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos novamente.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.i
 
-CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Pilhas/Trilhos novamente.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.s
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o: CMakeFiles/Atividades_C.dir/flags.make
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o: ../Estrutura\ de\ Dados/Fila/main_preferrencial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o   -c "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/main_preferrencial.c"
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/main_preferrencial.c" > CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.i
+
+CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/main_preferrencial.c" -o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.s
 
 # Object files for target Atividades_C
 Atividades_C_OBJECTS = \
-"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o"
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o" \
+"CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o"
 
 # External object files for target Atividades_C
 Atividades_C_EXTERNAL_OBJECTS =
 
-Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o
+Atividades_C: CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o
 Atividades_C: CMakeFiles/Atividades_C.dir/build.make
 Atividades_C: CMakeFiles/Atividades_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Atividades_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Atividades_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atividades_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

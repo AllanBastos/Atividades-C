@@ -123,32 +123,59 @@ Atividades_C/fast:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/build
 .PHONY : Atividades_C/fast
 
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.o: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
+Estrutura_de_Dados/Fila/fila.o: Estrutura_de_Dados/Fila/fila.c.o
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.o
+.PHONY : Estrutura_de_Dados/Fila/fila.o
 
 # target to build an object file
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o
+Estrutura_de_Dados/Fila/fila.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o
+.PHONY : Estrutura_de_Dados/Fila/fila.c.o
 
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.i: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
+Estrutura_de_Dados/Fila/fila.i: Estrutura_de_Dados/Fila/fila.c.i
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.i
+.PHONY : Estrutura_de_Dados/Fila/fila.i
 
 # target to preprocess a source file
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.i
+Estrutura_de_Dados/Fila/fila.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.i
+.PHONY : Estrutura_de_Dados/Fila/fila.c.i
 
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.s: Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
+Estrutura_de_Dados/Fila/fila.s: Estrutura_de_Dados/Fila/fila.c.s
 
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.s
+.PHONY : Estrutura_de_Dados/Fila/fila.s
 
 # target to generate assembly for a file
-Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s:
-	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
-.PHONY : Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.s
+Estrutura_de_Dados/Fila/fila.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.s
+.PHONY : Estrutura_de_Dados/Fila/fila.c.s
+
+Estrutura_de_Dados/Fila/main_preferrencial.o: Estrutura_de_Dados/Fila/main_preferrencial.c.o
+
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.o
+
+# target to build an object file
+Estrutura_de_Dados/Fila/main_preferrencial.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.c.o
+
+Estrutura_de_Dados/Fila/main_preferrencial.i: Estrutura_de_Dados/Fila/main_preferrencial.c.i
+
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Fila/main_preferrencial.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.i
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.c.i
+
+Estrutura_de_Dados/Fila/main_preferrencial.s: Estrutura_de_Dados/Fila/main_preferrencial.c.s
+
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Fila/main_preferrencial.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.s
+.PHONY : Estrutura_de_Dados/Fila/main_preferrencial.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Atividades_C"
 	@echo "... edit_cache"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.o"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.i"
-	@echo "... Estrutura_de_Dados/Pilhas/Trilhos_novamente.s"
+	@echo "... Estrutura_de_Dados/Fila/fila.o"
+	@echo "... Estrutura_de_Dados/Fila/fila.i"
+	@echo "... Estrutura_de_Dados/Fila/fila.s"
+	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.o"
+	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.i"
+	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.s"
 .PHONY : help
 
 

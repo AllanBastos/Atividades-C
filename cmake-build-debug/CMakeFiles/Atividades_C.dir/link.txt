@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Pilhas/Trilhos_novamente.c.o  -o Atividades_C 
+/usr/bin/cc -g   CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o  -o Atividades_C 
