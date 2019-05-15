@@ -22,12 +22,11 @@ TPessoa * criar_Pessoa( char nome[51], int idade){
     return p;
 }
 
-void insere (Tfila *f, Tfila *fP, tipo_dado * pes){
+void insere (Tfila *f, tipo_dado * pes){
 
     no *novo = (no*)malloc(sizeof(no));
     novo->valor =  * pes;
     novo->proximo = NULL;
-    if (pes->idade >= 65)f = fP;
 
     if(f->fim != NULL) {
         f->fim->proximo = novo;
@@ -39,45 +38,24 @@ void insere (Tfila *f, Tfila *fP, tipo_dado * pes){
     }
 }
 
-int retira(Tfila *f, Tfila *fP) {
+int retira(Tfila *f) {
+    no *temp;
 
-    if(!filaVazia(fP)){
-        no *temp1;
-        temp1 = fP->inicio;
-        fP->inicio = fP->inicio->proximo;
-        if(fP->inicio == NULL) {
-            fP->fim = NULL;
+    if(f->inicio == NULL) return -1;
+    else {
+        temp = f->inicio;
+        f->inicio = f->inicio->proximo;
+        if(f->inicio == NULL) {
+            f->fim = NULL;
         }
-        free(temp1); //desaloca a memória
+        free(temp); //desaloca a memória
         return 0;
-    } else{
-        no *temp;
-
-        if(f->inicio == NULL) return -1;
-        else {
-            temp = f->inicio;
-            f->inicio = f->inicio->proximo;
-            if(f->inicio == NULL) {
-                f->fim = NULL;
-            }
-            free(temp); //desaloca a memória
-            return 0;
-        }
     }
 
 }
 
-void limpaFila (Tfila *f, Tfila *fP) {
-    no *q, *t, *qp, *tp;
-    qp = fP->inicio;
-    while (qp != NULL) {
-        tp = qp;
-        qp = qp->proximo;
-        free(tp);
-    }
-    fP->inicio = NULL;
-    fP->fim = NULL;
-
+void limpaFila (Tfila *f) {
+    no *q, *t;
     q = f->inicio;
     while (q != NULL) {
         t = q;
@@ -86,7 +64,6 @@ void limpaFila (Tfila *f, Tfila *fP) {
     }
     f->inicio = NULL;
     f->fim = NULL;
-
 }
 
 int filaVazia(Tfila * f) {
@@ -94,19 +71,9 @@ int filaVazia(Tfila * f) {
 }
 
 
-void imprimir_fila(Tfila * f, Tfila * fp) {
+void imprimir_fila(Tfila * f) {
 
-
-    printf("\n%s\n", !filaVazia(fp) ? "Fila Preferencial:\n" : "Fila Preferencial vazia!\n");
-    if (fp->inicio != NULL) {
-        no *aux = fp->inicio;
-        while (aux != NULL) {
-            printf("Nome: %s  Idade: %d \n", aux->valor.nome, aux->valor.idade);
-            aux = aux->proximo;
-        }
-    }
-
-    printf("\n%s\n", !filaVazia(f) ? "Fila Normal: \n" : "Fila Noramal vazia!\n");
+    printf("\n%s\n", !filaVazia(f) ? "Fila: \n" : "Fila vazia!\n");
 
     if (f->inicio != NULL) {
         no *aux1 = f->inicio;

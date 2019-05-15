@@ -34,15 +34,15 @@ Tfila * criar_fila();
 
 TPessoa * criar_Pessoa( char nome[51], int idade);
 
-void insere (Tfila *f, Tfila *fP, tipo_dado * pes);
+void insere (Tfila *f, tipo_dado * pes);
 
-int retira(Tfila *f, Tfila *fP);
+int retira(Tfila *f);
 
-void limpaFila(Tfila *f, Tfila *fP);
+void limpaFila(Tfila *f);
 
 int filaVazia(Tfila * f);
 
-void imprimir_fila(Tfila * f, Tfila * fp);
+void imprimir_fila(Tfila * f);
 
 
 

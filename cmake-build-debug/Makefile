@@ -150,6 +150,33 @@ Estrutura_de_Dados/Fila/fila.c.s:
 	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.s
 .PHONY : Estrutura_de_Dados/Fila/fila.c.s
 
+Estrutura_de_Dados/Fila/fila_preferencial.o: Estrutura_de_Dados/Fila/fila_preferencial.c.o
+
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.o
+
+# target to build an object file
+Estrutura_de_Dados/Fila/fila_preferencial.c.o:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila_preferencial.c.o
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.c.o
+
+Estrutura_de_Dados/Fila/fila_preferencial.i: Estrutura_de_Dados/Fila/fila_preferencial.c.i
+
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.i
+
+# target to preprocess a source file
+Estrutura_de_Dados/Fila/fila_preferencial.c.i:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila_preferencial.c.i
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.c.i
+
+Estrutura_de_Dados/Fila/fila_preferencial.s: Estrutura_de_Dados/Fila/fila_preferencial.c.s
+
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.s
+
+# target to generate assembly for a file
+Estrutura_de_Dados/Fila/fila_preferencial.c.s:
+	$(MAKE) -f CMakeFiles/Atividades_C.dir/build.make CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila_preferencial.c.s
+.PHONY : Estrutura_de_Dados/Fila/fila_preferencial.c.s
+
 Estrutura_de_Dados/Fila/main_preferrencial.o: Estrutura_de_Dados/Fila/main_preferrencial.c.o
 
 .PHONY : Estrutura_de_Dados/Fila/main_preferrencial.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Estrutura_de_Dados/Fila/fila.o"
 	@echo "... Estrutura_de_Dados/Fila/fila.i"
 	@echo "... Estrutura_de_Dados/Fila/fila.s"
+	@echo "... Estrutura_de_Dados/Fila/fila_preferencial.o"
+	@echo "... Estrutura_de_Dados/Fila/fila_preferencial.i"
+	@echo "... Estrutura_de_Dados/Fila/fila_preferencial.s"
 	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.o"
 	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.i"
 	@echo "... Estrutura_de_Dados/Fila/main_preferrencial.s"

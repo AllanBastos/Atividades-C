@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila.c.o"
+  "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/fila_preferencial.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/fila_preferencial.c.o"
   "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/Estrutura de Dados/Fila/main_preferrencial.c" "/home/allan/Documentos/Faculdade/CLionProjects/Atividades-C/cmake-build-debug/CMakeFiles/Atividades_C.dir/Estrutura_de_Dados/Fila/main_preferrencial.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
