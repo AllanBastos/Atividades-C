@@ -96,20 +96,23 @@ int filaVazia(Tfila * f) {
 
 void imprimir_fila(Tfila * f, Tfila * fp) {
 
+
     printf("\n%s\n", !filaVazia(fp) ? "Fila Preferencial:\n" : "Fila Preferencial vazia!\n");
     if (fp->inicio != NULL) {
-        while (fp->inicio != NULL) {
-            printf("Nome: %s  Idade: %d \n", fp->inicio->valor.nome, fp->inicio->valor.idade);
-            fp->inicio = fp->inicio->proximo;
+        no *aux = fp->inicio;
+        while (aux != NULL) {
+            printf("Nome: %s  Idade: %d \n", aux->valor.nome, aux->valor.idade);
+            aux = aux->proximo;
         }
     }
 
     printf("\n%s\n", !filaVazia(f) ? "Fila Normal: \n" : "Fila Noramal vazia!\n");
 
     if (f->inicio != NULL) {
-        while (f->inicio != NULL) {
-            printf("Nome:  %s  Idade: %d \n", f->inicio->valor.nome, f->inicio->valor.idade);
-            f->inicio = f->inicio->proximo;
+        no *aux1 = f->inicio;
+        while (aux1 != NULL) {
+            printf("Nome: %s  Idade: %d \n", aux1->valor.nome, aux1->valor.idade);
+            aux1 = aux1->proximo;
         }
     }
 }

@@ -24,18 +24,19 @@ int main(void){
     insere(filaNorm, filaPref, p1);
     insere(filaNorm, filaPref, p2);
     insere(filaNorm, filaPref, p3);
+    imprimir_fila(filaNorm, filaPref);
     insere(filaNorm, filaPref, p4);
     insere(filaNorm, filaPref, p5);
     insere(filaNorm, filaPref, p6);
 
     retira(filaNorm, filaPref);
-    imprimir_fila(filaNorm, filaPref);
     retira(filaNorm, filaPref);
     retira(filaNorm, filaPref);
     retira(filaNorm, filaPref);
     imprimir_fila(filaNorm, filaPref);
-    retira(filaNorm, filaPref);
-    retira(filaNorm, filaPref);
+
+    limpaFila(filaNorm, filaPref);
+    imprimir_fila(filaNorm, filaPref);
 
 
 }
